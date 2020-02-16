@@ -58,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
+        app:boxBackgroundColor="@color/colorAccent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
         tools:layout_editor_absoluteX="16dp">
 
@@ -69,7 +70,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:hint="Full Name"
-        android:backgroundTint="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        app:boxBackgroundColor="@color/colorAccent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
         tools:layout_editor_absoluteX="0dp">
 
@@ -91,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:hint="Email Address"
-        android:backgroundTint="@color/colorAccent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,6 +115,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
+        app:boxBackgroundColor="@color/colorAccent"
         app:layout_constraintTop_toBottomOf="@+id/spinner"
         tools:layout_editor_absoluteX="18dp">
 
@@ -124,7 +126,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/colorAccent"
+
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,6 +138,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:boxBackgroundColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText6">
 
@@ -146,7 +149,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/colorAccent"
+
         android:hint="Confirm Password"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText6"
         tools:layout_editor_absoluteX="0dp" />
@@ -158,13 +161,13 @@
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        app:boxBackgroundColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText7">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorAccent"
             android:hint="Referal Code (Optional)" />
     </com.google.android.material.textfield.TextInputLayout>
 
